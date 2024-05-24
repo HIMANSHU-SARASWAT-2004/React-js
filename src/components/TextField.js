@@ -29,7 +29,6 @@ export default function TextField(props) {
         props.showAlert("Extra spaces removed!", "success");
     }
     const [text, setText] = useState('');
-    // setText("Himanshu");  // way to change the text
     let wordStyle = {
         color: 'red'
     }
